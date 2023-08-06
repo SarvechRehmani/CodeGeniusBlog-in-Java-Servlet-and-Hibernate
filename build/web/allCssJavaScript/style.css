@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.primary-backround{
+    background-color: #00897b;
+}
+.b-background{
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 81% 83%, 61% 100%, 38% 92%, 19% 100%, 0 85%);
+}
+
+/*Error page*/
+.jumbotron {
+    background-color: #00897b;
+    padding: 60px;
+    /*text-align: center;*/
+}
+
+.jumbotron h3 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.jumbotron p {
+    color: white;
+    text-align: justify;
+}
+
+/*End error page*/ 
+
+/*BlogPost page css start*/
+
+
+
+
+/*Footer*/
+.footer {
+    background-color: #00897b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        font-size: 12px;
+    }
+}
+/*End Footer*/ 
